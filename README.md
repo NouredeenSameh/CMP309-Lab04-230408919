@@ -13,7 +13,7 @@ A client-side task management dashboard built with vanilla JavaScript, emphasizi
 - **Enforcing ID Immutability**: Ensuring the `id` field cannot be overwritten required leveraging `Object.defineProperty` with `writable: false`.
 - **Pure State Updates**: Avoiding in-place mutations required utilizing `map()` and `filter()` returning freshly instantiated `TaskManager` containers instead of mutating class instances directly.
 
-## Recommended Git Commit History (7 commits minimum)
+## Recommended Git Commit History (7 commits)
 1. `feat: scaffold initial HTML document structure and base styling`
 2. `feat: implement Task class with immutable ID via defineProperty`
 3. `feat: implement TaskManager class with pure immutable array methods`
